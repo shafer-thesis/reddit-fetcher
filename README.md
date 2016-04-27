@@ -15,6 +15,8 @@
 
 ## Twitter API
 
+- [ ] Set up/resetup a Twitter dev account
+- [ ] Set up Twitter application
 - [ ] Search API endpoint: https://dev.twitter.com/rest/reference/get/search/tweets
 - [ ] (optional - maybe don't need to get individual tweet) Show individual tweet https://dev.twitter.com/rest/reference/get/statuses/show/%3Aid
 - [ ] Parse user information from Tweet information

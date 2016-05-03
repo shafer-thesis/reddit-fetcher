@@ -42,7 +42,8 @@ function parseJSON(redditjson){
 
 function getRedditData(theURL){
 	$.getScript(
-		"http://www.reddit.com/api/info.json?limit=100jsonp=parseJSON&url="+theURL
+		"http://www.reddit.com/api/info.json?jsonp=parseJSON&url="+theURL
+		//"https://www.reddit.com/duplicates/4gixk8.json?jsonp=parseJSON"
 	);
 }
 
